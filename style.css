@@ -1,0 +1,145 @@
+body {
+    background: rgba(0,0,0,.9);
+}
+
+* {
+    color: white;
+}
+
+.header {
+    height: 50px;
+}
+.header a{
+    color: white;
+}
+.header a:hover{
+    color: lightblue;
+}
+.content {
+    height: calc(100% - 102px);
+    overflow: auto;
+    /*display: flex;*/
+    /*width: 100%;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.footer {
+
+}
+
+.question-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.question-wrapper {
+    background: rgba(9,218,237,.1);
+    padding: 30PX;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+.question {
+    font-size: 32px;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.quizHeader {
+    font-size: 32px;
+    color: yellow;
+}
+
+
+.answer input{
+    margin-right: 5px;
+}
+
+.result {
+    display: none;
+}
+
+.table {
+    display: none;
+}
+
+.table td{
+    cursor: pointer;
+}
+
+.table {
+    background: rgba(9,218,237,.1);
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+.subscription {
+    display: none;
+    height: 100%;
+    padding-top: 15%;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.game-container {
+    display: block;
+    padding: 50px 20px;
+    margin-top: 20px;
+    background: rgba(0,0,0,.2);
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.game-name {
+    color: white;
+    text-shadow: 5px 5px 10px cyan;
+}
+
+.game-price {
+    color: yellow;
+}
+
+.thank-you, .noresult {
+    display: none;
+}
+
+#btn-back, .promo-text, .time-left {
+    display: none;
+}
+
+.promo-text {
+    background: rgba(0,0,0,.1);
+    padding: 10px;
+}
+
+.promo-text span {
+    color: red;
+    font-weight: bold;
+}
+
+.timer, .sale-price {
+    color: red;
+}
+
+.contact {
+    display: none;
+    background: rgba(9,218,237,.1);
+    padding: 30PX;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
